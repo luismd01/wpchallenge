@@ -1,0 +1,366 @@
+
+/*Colors*/
+body {
+  color: #ffffff;
+  background-color: #15171F;
+  overflow-x: none;
+}
+
+/*abstracts*/
+/*layout*/
+header {
+  position: absolute;
+  top: 72px;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+header nav {
+  padding: 0 100px;
+}
+header nav .container-fluid {
+  padding: 0 !important;
+}
+header a {
+  color: #ffffff !important;
+}
+header li {
+  padding: 5px 50px 5px 0px;
+}
+header li a {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dropdown-menu {
+  background-color: #15171F;
+  width: 194px;
+}
+.dropdown-menu li {
+  padding-left: 20px !important;
+}
+.dropdown-menu li:hover {
+  background: #34384c;
+}
+.dropdown-menu a {
+  background-color: transparent;
+  color: #A8ABB2 !important;
+}
+.dropdown-menu a:hover {
+  background: transparent;
+}
+
+.nav-item a {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.navbar-nav button {
+  color: #ffffff;
+  background: #FF7300;
+  border-color: #FF7300;
+  border-radius: 0px;
+  padding: 14px 36px 14px 36px;
+}
+
+.clients .tiny-slide {
+  opacity: 0.3;
+  transition: all 0.5s;
+}
+
+.clients .tiny-slide:hover {
+  opacity: 1;
+}
+
+.top-line {
+  background: #FF7300;
+  width: 100%;
+  height: 2px;
+  top: 0;
+  position: absolute;
+}
+
+.dropdown-menu li {
+  padding-top: 15px !important;
+}
+.dropdown-menu li a {
+  padding: 0 !important;
+}
+
+/*components*/
+.tns-horizontal.tns-subpixel .tns-item {
+  display: inline-block;
+  vertical-align: middle !important;
+  white-space: normal;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 380px;
+  z-index: 10;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("/Assets/img/left.svg") !important;
+  width: 60px;
+  height: 60px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("/Assets/img/right.svg") !important;
+  width: 60px;
+  height: 60px;
+}
+
+main button {
+  padding: 100px !important;
+  width: auto !important;
+  z-index: 999 !important;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 940px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-content {
+  padding-right: 31.71875%;
+  padding-left: 31.71875%;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+.carousel-caption p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  padding-left: 31.71875%;
+  padding-right: 31.71875%;
+  z-index: 0;
+}
+.carousel-caption p a {
+  color: #ffffff;
+  background: #FF7300;
+  border-color: #FF7300;
+  border-radius: 0px;
+  padding: 14px 36px 14px 36px;
+  font-size: 16px !important;
+  margin-top: 25px;
+}
+
+.features h1 {
+  font-size: 50px !important;
+}
+.features h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.features .container-fluid {
+  padding: 0 225px !important;
+}
+
+#hanging-icons {
+  position: relative;
+  top: 100px;
+}
+
+.features-icons img {
+  padding-right: 25px;
+}
+
+.rp-flex {
+  display: flex !important;
+}
+
+.g-max {
+  padding-top: 65px !important;
+  padding-bottom: 93px !important;
+}
+
+#numbers {
+  position: relative;
+  top: 93px !important;
+  padding-bottom: 63px;
+}
+
+.milestones .container-fluid {
+  padding: 0 485px;
+}
+.milestones h1 {
+  font-size: 28px;
+}
+.milestones p {
+  font-weight: lighter;
+  font-size: 12px;
+  padding-top: 4px;
+  line-height: 170%;
+}
+
+@media screen and (max-width: 1920px) {
+  .features h1 {
+    font-size: 40px !important;
+  }
+  .features h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .features p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    width: auto;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .features p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    width: 334px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .features h1 {
+    font-size: 40px !important;
+  }
+  .features h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .features p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    width: auto;
+  }
+}
+@media (min-width: 200px) and (max-width: 1024px) {
+  body {
+    color: #ffffff;
+    background-color: #15171F;
+    overflow-x: none;
+  }
+  header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #15171F;
+  }
+  header nav {
+    padding: 0 50px !important;
+  }
+  header nav .container-fluid {
+    padding: 0 !important;
+  }
+  .top-line {
+    display: none !important;
+  }
+
+  main button {
+    padding: 15px !important;
+    width: auto !important;
+  }
+  .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .features h1 {
+    font-size: 40px !important;
+  }
+  .features h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .features p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    width: auto;
+  }
+  .features .container-fluid {
+    padding: 0 50px !important;
+  }
+  .features h1 {
+    font-size: 50px !important;
+  }
+  .features h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .features p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+  }
+  .features .container-fluid {
+    padding: 0 50px !important;
+  }
+  #hanging-icons {
+    position: relative;
+    top: 100px !important;
+  }
+  .features-icons img {
+    padding-right: 25px;
+  }
+  #numbers {
+    position: relative;
+    top: 100px !important;
+  }
+  .milestones .container-fluid {
+    padding: 0 50px !important;
+  }
+  .milestones h1 {
+    font-size: 28px;
+  }
+  .rp-flex {
+    display: inline !important;
+    padding-bottom: 2rem;
+  }
+  .milestones .features-icons img {
+    padding-right: 0px !important;
+  }
+  .milestones .features-icons .container-fluid {
+    padding: 0 50px !important;
+  }
+  .carousel-caption p {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .milestones .container-fluid {
+    padding: 0 250px;
+  }
+}

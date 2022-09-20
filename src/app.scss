@@ -1,0 +1,14 @@
+
+@import url('./base/_resets.scss');
+@import './base/base';
+
+/*abstracts*/
+@import './abstracts/variables';
+/*layout*/
+@import './layout/header';
+/*components*/
+@import './components/carousel';
+@import './components/clients';
+@import './components/features';
+@import './components/milestones';
+@import './components/responsive';

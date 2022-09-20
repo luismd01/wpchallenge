@@ -1,0 +1,188 @@
+@media screen and (max-width: 1920px) {
+  .features {
+    h2 {
+      font-size: 40px !important;
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 170%;
+      width: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .features {
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 170%;
+      width: 334px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .features {
+    h1 {
+      font-size: 40px !important;
+    }
+    h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 170%;
+      width: auto;
+    }
+  }
+}
+
+@media (min-width: 200px) and (max-width: 1024px) {
+  body {
+    color: $color-white;
+    background-color: $color-dark;
+    overflow-x: none;
+  }
+  header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $color-dark;
+
+    nav {
+      padding: 0 50px !important;
+      .container-fluid {
+        padding: 0 !important;
+      }
+    }
+  }
+  .top-line {
+    display: none !important;
+  }
+  .main-logo img {
+    width: 140px;
+    height: auto;
+  }
+  main {
+    button {
+      padding: 15px !important;
+      width: auto !important;
+    }
+  }
+  .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .features {
+    h1 {
+      font-size: 40px !important;
+    }
+    h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 170%;
+      width: auto;
+    }
+    .container-fluid {
+      padding: 0 50px !important;
+    }
+  }
+  .features {
+    h1 {
+      font-size: 50px !important;
+    }
+    h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 170%;
+    }
+    .container-fluid {
+      padding: 0 50px !important;
+    }
+  }
+
+  #hanging-icons {
+    position: relative;
+    top: 100px !important;
+  }
+
+  .features-icons {
+    img {
+      padding-right: 25px;
+    }
+  }
+  #numbers {
+    position: relative;
+    top: 100px !important;
+  }
+
+  .milestones {
+    .container-fluid {
+      padding: 0 50px !important;
+    }
+    h1 {
+      font-size: 28px;
+    }
+  }
+  .rp-flex {
+    display: inline !important;
+    padding-bottom: 2rem;
+  }
+  .milestones {
+    .features-icons {
+      img {
+        padding-right: 0px !important;
+      }
+      .container-fluid {
+        padding: 0 50px !important;
+      }
+    }
+  }
+  .carousel-caption {
+    p {
+      padding-right: 10% !important;
+      padding-left: 10% !important;
+      width: auto !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .milestones {
+    .container-fluid {
+      padding: 0 250px;
+    }
+  }
+}
