@@ -172,4 +172,11 @@ function register_navwalker()
     require_once get_template_directory() . "/class-wp-bootstrap-navwalker.php";
 }
 add_action("after_setup_theme", "register_navwalker");
+add_filter( 'nav_menu_link_attributes', function ( $atts, $item, $args ) {
+    if ( 213 === $item->ID ) { // change 1161 to the ID of your menu item.
+        $atts['data-bs-toggle'] = 'dropdown';
+    }
+
+    return $atts;
+}, 10, 3 );
 
