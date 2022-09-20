@@ -33,7 +33,7 @@ wp_nav_menu(array(
     'container' => 'div',
     'main-header',
     'container_class' => 'collapse navbar-collapse',
-    'container_id' => 'bs-example-navbar-collapse-1',
+    'container_id' => 'navbarNavDropdown',
     'menu_class' => 'navbar-nav ms-auto',
     'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
     'walker' => new WP_Bootstrap_Navwalker() ,
